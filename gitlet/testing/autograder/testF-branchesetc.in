@@ -1,0 +1,53 @@
+> init
+<<<
+> branch other
+<<<
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> commit "second file"
+<<<
+> branch other2
+<<<
+> checkout other2
+<<<
+> rm-branch other2
+Cannot remove the current branch.
+<<<
+> rm-branch other
+<<<
+> rm-branch master
+<<<
+> branch other2
+A branch with that name already exists.
+<<<
+> branch master
+<<<
+> merge master
+Given branch is an ancestor of the current branch.
+<<<
+> checkout master
+<<<
++ m.txt wug.txt
+> add m.txt
+<<<
+> merge other2
+You have uncommitted changes.
+<<<
+> commit "yehaw"
+<<<
+> checkout other2
+<<<
++ f.txt notwug.txt
+> add f.txt
+<<<
+> commit "abba"
+<<<
+> merge master
+Encountered a merge conflict.
+<<<
+> commit "solved"
+<<<

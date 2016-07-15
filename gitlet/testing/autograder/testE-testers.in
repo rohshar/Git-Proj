@@ -1,0 +1,57 @@
+> init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "version 1 of wug"
+<<<
++ wug.txt notwug.txt
+> add wug.txt
+<<<
+> commit "version 2 of wug"
+<<<
+> checkout master
+No need to checkout the current branch.
+<<<
+> checkout fire
+No such branch exists.
+<<<
+> branch fire
+<<<
+> checkout fire
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "version 3 of wug"
+<<<
+> checkout master
+<<<
+> rm f.txt
+No reason to remove file.
+<<<
+> rm wug.txt
+<<<
+> add d.txt
+File does not exist.
+<<<
+D UID "[a-f0-9]+"
+D HEADER "Commit (${UID})"
+D DATE "\d\d\d\d-\d\d-\d\d\s+\d\d:\d\d:\d\d"
+> log
+===
+${HEADER}
+${DATE}
+version 2 of wug
+
+===
+${HEADER}
+${DATE}
+version 1 of wug
+
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*

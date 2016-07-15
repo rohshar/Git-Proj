@@ -1,0 +1,35 @@
+> init
+<<<
+> branch other
+<<<
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> add f.txt
+<<<
+> commit "Main two files yee"
+<<<
+> checkout other
+<<<
+> status
+=== Branches ===
+*other
+master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
++ f.txt notwug.txt
+> add f.txt
+<<<
+> commit "Main two files yee"
+<<<
+D DATE "\d\d\d\d-\d\d-\d\d\s+\d\d:\d\d:\d\d"
+D COMMIT_HEAD "Commit ([a-f0-9]+)[ \t]*\n${DATE}"

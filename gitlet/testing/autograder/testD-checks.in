@@ -1,0 +1,49 @@
+> init
+<<<
+> branch other
+<<<
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> commit "one files"
+<<<
+E f.txt
+E g.txt
+> add f.txt
+<<<
+> commit "second file"
+<<<
+> branch b1
+<<<
++ h.txt wug.txt
+> add h.txt
+<<<
+> commit "Add h.txt"
+<<<
+> branch b2
+<<<
+> status
+=== Branches ===
+*master
+b2
+other
+b1
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> checkout b1
+<<<
+> merge b2
+Current branch fast-forwarded.
+<<<
+> rm a.txt
+No reason to remove file.
+<<<

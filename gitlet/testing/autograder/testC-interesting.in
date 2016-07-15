@@ -1,0 +1,53 @@
+> init
+<<<
+> branch other
+<<<
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> commit "one files"
+<<<
+E f.txt
+E g.txt
+> add f.txt
+<<<
+> commit "second file"
+<<<
+> checkout other
+<<<
+* f.txt
+* g.txt
++ f.txt notwug.txt
+> add f.txt
+<<<
+> commit "extra"
+<<<
+= f.txt notwug.txt
+* g.txt
+> checkout master
+<<<
+= f.txt wug.txt
+= g.txt notwug.txt
+> checkout other
+<<<
+= f.txt notwug.txt
+* g.txt
++ f.txt wug.txt
+> add f.txt
+<<<
+> status
+=== Branches ===
+*other
+master
+
+=== Staged Files ===
+f.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
