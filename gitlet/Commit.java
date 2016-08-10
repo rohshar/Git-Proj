@@ -8,8 +8,6 @@ import java.util.List;
 import java.io.Serializable;
 
 
-
-
 /**  @author Rohan Sharan, Toni Lee */
 public class Commit implements Serializable {
 

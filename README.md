@@ -2,7 +2,7 @@
 This is a simple implementation of Git.
 
 # Usage
-Clone the repo and then from inside the outer gitlet directory run "java gitlet.Main {command}" using the command line
+Clone the repo and then from run "java gitlet.Main {command}" using the command line
 
 # Supported Commands:
 - init
@@ -18,5 +18,3 @@ Clone the repo and then from inside the outer gitlet directory run "java gitlet.
 - rm-branch
 - reset
 - merge
-
-

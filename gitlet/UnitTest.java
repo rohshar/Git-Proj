@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
+
 /** The suite of all JUnit tests for the gitlet package.
  *  @author Rohan Sharan, Toni Lee.
  */
@@ -45,8 +46,6 @@ public class UnitTest {
             System.out.println();
         }
     }
-
-
 
     @Test
     public void testRM() {

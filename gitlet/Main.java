@@ -14,7 +14,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 
-/** Driver class for Gitlet, the tiny stupid version-control system.
+/** Controller class for Git.
  *  @author Rohan Sharan, Toni Lee
  */
 public class Main {
@@ -236,7 +236,6 @@ public class Main {
             System.out.println("No command with that name exists.");
             break;
         }
-
     }
 
     /** The checkout case #3. Takes in File FILE to check. */
@@ -388,6 +387,7 @@ public class Main {
             System.out.println("No commit with that id exists");
         }
     }
+
     /** Returns 1 if Modified in only current branch, 2 if modified in
      *  only Given, 3 if Both, 4 if Neither Takes in String FILE, String BRANCH
      *  and Commit SPLIT.
@@ -1080,5 +1080,4 @@ public class Main {
     static void setFile(File newFile) {
         _outFile = newFile;
     }
-
 }

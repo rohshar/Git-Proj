@@ -120,5 +120,4 @@ public class GitTree implements Serializable {
 
     /** This GitTree's current Branch. */
     private String _currentBranch;
-
 }
